@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .logo {
+    font-size: 24px;
+    letter-spacing: 4px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 8vh;
+  }  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  main {
+    background: url("img\ site.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
+main h1{
+    color: #fff;
+    font-size: 80px;
+    font-family:sans-serif;
+} 
+main p {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+main section{
+    position: absolute;
+    top: 27%;
+    margin-left: 10%;
+}
+.sobre{
+  background-color: #4b4b4b;
+  height: 92vh;
+
+}
+div h1{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #fff;
+  position: absolute;
+  margin-left: 10%;
+  top: 120%;
+}
+div p{
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #fff;
+  position: absolute;
+  margin-left: 10%;
+  top: 140%;
+}
+section.projeto{
+  background-color: #eaeaea;
+  height: 92vh;
+}
+.projeto h1{
+  font-size: 32px;
+  font-family: sans-serif;
+  position: absolute;
+  margin-left: 10%;
+  top: 210%;
+}
+.col-3{
+  margin-left: 200px;
+  margin-right: 1px;
+  width: 20%;
+  float: left;
+  position: relative ;
+}
+#caixa h3{
+  width: auto;
+  position: absolute;
+  top: 88%;
+  text-align: center;
+  margin-left: 6%;
+}
+.conteiner{
+  position: relative;
+  top: 50%;
+}
+section.comentario{
+  background: url("Feedback.png") no-repeat center center;
+  background-size: cover;
+  width: auto;
+  height: 745px;
+}
+section.comentario h1{
+  color: black;
+  font-size: 40px;
+  font-family: sans-serif;
+  position: relative;
+  margin-left: 55%;
+  top: 20%;
+}
+section.comentario p{
+  color: black;
+  font-size: 22px;
+  font-family: sans-serif;
+  position: relative;
+  margin-left: 10%;
+  top: 35%;
+  margin-left: 55%;
+}
+section.comentario h4{
+  color: black;
+  font-size: 23px;
+  font-family: sans-serif;
+  position: relative;
+  margin-left: 55%;
+  top: 48%;
+}
+section.comentario a{
+  color: black;
+  font-size: 17px;
+  font-family: sans-serif;
+  position: relative;
+  margin-left: 55%;
+  top: 50%;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  height: 400px;
+}
+footer h3{
+  font-size: 40px;
+  font-family: sans-serif;
+  position: absolute;
+  margin-left: 10%;
+  top: 390% ;
+}
+
+/* Estilos para os ícones de redes sociais */
+.social-icons {
+  margin-top: 10px;
+  position: relative;
+  top: 45%;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+/* Estilos para o texto "Todos os direitos reservados" */
+.rights {
+  margin-top: 10px;
+  position: relative;
+  top: 49%;
+  text-align: center;
+  font-size: 13px;
+}
+section.contato div p{
+  font-size: 15px;
+  position: relative;
+  top: 40%;
+}
+footer p{
+  font-size: 20px;
+  position: relative;
+  top: 30%;
+  margin-bottom: 25px;
+}
+
